@@ -1,0 +1,25 @@
+{
+  "name": "cracking-the-coding-interview",
+  "version": "1.0.0",
+  "description": "cracking the coding interview solutions in typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node' src/index.ts",
+    "test": "ts-node node_modules/jasmine/bin/jasmine",
+    "jasmine": "jasmine init",
+    "lint": "tslint --project tsconfig.json **/*.ts"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.11",
+    "@types/node": "^10.12.5",
+    "jasmine": "^2.8.11",
+    "jsverify": "^0.8.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-immutable": "^4.9.1",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {}
+}
