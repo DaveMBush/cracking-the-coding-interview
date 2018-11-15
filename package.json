@@ -6,8 +6,8 @@
   "scripts": {
     "start": "ts-node' src/index.ts",
     "test": "ts-node node_modules/jasmine/bin/jasmine",
-    "jasmine": "jasmine init",
-    "lint": "tslint --project tsconfig.json **/*.ts"
+    "lint": "tslint --project tsconfig.json **/*.ts",
+    "debug": "node --nolazy --inspect-brk=9229 ts-node ./node_modules/jasmine/bin/jasmine"
   },
   "author": "",
   "license": "UNLICENSED",
