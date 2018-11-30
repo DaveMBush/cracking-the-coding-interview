@@ -21,4 +21,9 @@ describe('1.6 string compression', () => {
       expect(compressString('abcdeff')).toBe('a1b1c1d1e1f2');
     });
   });
+  describe('string with lots of duplicates', () => {
+    it('should return proper counts', () => {
+      expect(compressString('aabbbccddddeff')).toBe('a2b3c2d4e1f2');
+    });
+  });
 });
