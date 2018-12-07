@@ -1,5 +1,5 @@
 import * as jsc from 'jsverify';
-import { urlify } from '../src/1.3-urlify';
+import { urlify } from '../../src/chapter-1/1.3-urlify';
 
 describe('1.3 Urlify', () => {
   // basic test case

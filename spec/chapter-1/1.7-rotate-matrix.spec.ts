@@ -1,4 +1,4 @@
-import { getUint4, rotateImage, setUint4 } from '../src/1.7-rotate-matrix';
+import { getUint4, rotateImage, setUint4 } from '../../src/chapter-1/1.7-rotate-matrix';
 
 describe('1.7 rotate matrix', () => {
   let byteArray: Uint8Array;

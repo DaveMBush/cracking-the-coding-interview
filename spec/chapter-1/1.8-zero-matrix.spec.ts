@@ -1,4 +1,4 @@
-import { zeroMatrix } from '../src/1.8-zero-matrix';
+import { zeroMatrix } from '../../src/chapter-1/1.8-zero-matrix';
 
 // tslint:disable-next-line:readonly-array
 function countZeros(matrix: Array<Array<number>>): number {

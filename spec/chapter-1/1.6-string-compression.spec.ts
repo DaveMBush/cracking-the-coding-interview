@@ -1,4 +1,4 @@
-import { compressString } from '../src/1.6-string-compression';
+import { compressString } from '../../src/chapter-1/1.6-string-compression';
 
 describe('1.6 string compression', () => {
   describe('string with no repeating characters', () => {

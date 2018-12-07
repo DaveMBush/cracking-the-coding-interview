@@ -1,4 +1,4 @@
-import { isDiffByOne } from '../src/1.5-one-away';
+import { isDiffByOne } from '../../src/chapter-1/1.5-one-away';
 
 let s1: string = '';
 let s2: string = '';

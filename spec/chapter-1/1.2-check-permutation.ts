@@ -1,5 +1,5 @@
 import * as jsc from 'jsverify';
-import { isPermutation } from '../src/1.2-check-permutation';
+import { isPermutation } from '../../src/chapter-1/1.2-check-permutation';
 
 describe('1.2 Check Permutations', () => {
   it('should return true for permutations', () => {

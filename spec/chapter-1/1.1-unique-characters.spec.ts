@@ -1,5 +1,5 @@
 import * as jsc from 'jsverify';
-import { isUnique } from '../src/1.1-unique-characters';
+import { isUnique } from '../../src/chapter-1/1.1-unique-characters';
 
 describe('1.1 Unique Characters', () => {
   it('abcdefg is unique', () => {

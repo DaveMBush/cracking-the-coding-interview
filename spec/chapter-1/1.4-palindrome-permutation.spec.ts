@@ -1,4 +1,4 @@
-import { isPalindromePermutation } from '../src/1.4-palindrome-permutation';
+import { isPalindromePermutation } from '../../src/chapter-1/1.4-palindrome-permutation';
 
 describe('1.4 Palindrome Permutation', () => {
   it('abcddcba is a palindrome permutation', () => {
