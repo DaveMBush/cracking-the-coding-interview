@@ -1,12 +1,12 @@
-export class Node {
-  next: Node = null;
+export class Node<T> {
+  next: Node<T> = null;
 
-  constructor(private data: number) {
+  constructor(public data: T) {
   }
 
-  appendToTail(d: number): void {
-    const end: Node = new Node(d);
-    let n: Node = this;
+  appendToTail(d: T): void {
+    const end: Node<T> = new Node(d);
+    let n: Node<T> = this;
     while (n.next !== null) {
       n = n.next;
     }
